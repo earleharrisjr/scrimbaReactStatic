@@ -2,6 +2,11 @@ import React from "react";
 
 
 export default function NavBar() {
-    return <h1>NavBar</h1>
-
+    return (
+        <nav>
+            <img src="src/assets/reactlogo.png" className="nav--icon" />
+            <h3 className="nav--logo_text">ReactFacts</h3>
+            <h4 className="nav--title">React Course - Project 1</h4>
+        </nav>
+    )
 }
